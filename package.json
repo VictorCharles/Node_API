@@ -1,0 +1,21 @@
+{
+  "name": "learning-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test",
+    "start": "node index.js",
+    "cli": "node cli.js ./arquivos/texto1.md validar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
