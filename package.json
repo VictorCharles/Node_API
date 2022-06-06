@@ -1,7 +1,7 @@
 {
   "name": "learning-node-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "API de verificação para arquivos .md",
   "main": "index.js",
   "scripts": {
     "test": "jest ./test",
@@ -9,8 +9,8 @@
     "cli": "node cli.js ./arquivos/texto1.md validar"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Victor Charles",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
     "node-fetch": "^2.6.1"
